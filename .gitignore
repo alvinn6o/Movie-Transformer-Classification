@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+# Generated features, checkpoints, and run outputs (regenerate with the scripts)
+artifacts/
+# Never commit dataset assets (posters/plots); download via kagglehub
+data/

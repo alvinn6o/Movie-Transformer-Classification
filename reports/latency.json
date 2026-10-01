@@ -1,0 +1,65 @@
+{
+  "hardware": "arm64",
+  "processor": "arm",
+  "torch_threads": 4,
+  "n_movies": 50,
+  "batch_size": 1,
+  "runs": {
+    "binary/vd_concat/seed0": {
+      "cpu": {
+        "p50_ms": 65.19999999999999,
+        "p95_ms": 77.57999999999998,
+        "params": 152558337,
+        "max_abs_diff_vs_cached": 5.039806365969568e-05
+      },
+      "mps": {
+        "p50_ms": 33.599999999999994,
+        "p95_ms": 97.23499999999999,
+        "params": 152558337,
+        "max_abs_diff_vs_cached": 4.975290298459001e-05
+      }
+    },
+    "binary/sd_concat/seed0": {
+      "cpu": {
+        "p50_ms": 67.1,
+        "p95_ms": 81.375,
+        "params": 159643905,
+        "max_abs_diff_vs_cached": 5.0775861740126604e-05
+      },
+      "mps": {
+        "p50_ms": 32.55,
+        "p95_ms": 45.14499999999999,
+        "params": 159643905,
+        "max_abs_diff_vs_cached": 4.922413825986238e-05
+      }
+    },
+    "binary/sd_xattn/seed0": {
+      "cpu": {
+        "p50_ms": 67.6,
+        "p95_ms": 82.41,
+        "params": 160699649,
+        "max_abs_diff_vs_cached": 6.175651550294203e-05
+      },
+      "mps": {
+        "p50_ms": 34.95,
+        "p95_ms": 50.269999999999996,
+        "params": 160699649,
+        "max_abs_diff_vs_cached": 6.175651550294203e-05
+      }
+    },
+    "binary/sd_lora_concat/seed0": {
+      "cpu": {
+        "p50_ms": 71.95,
+        "p95_ms": 85.25499999999998,
+        "params": 160086273,
+        "max_abs_diff_vs_cached": 0.0010827948570251156
+      },
+      "mps": {
+        "p50_ms": 33.85,
+        "p95_ms": 54.28499999999998,
+        "params": 160086273,
+        "max_abs_diff_vs_cached": 0.0010827948570251156
+      }
+    }
+  }
+}
