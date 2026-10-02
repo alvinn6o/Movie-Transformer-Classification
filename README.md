@@ -1,6 +1,6 @@
 # Movie Catalog Tagging Assistant
 
-A multimodal machine learning project that uses movie posters and plot outlines to suggest genre tags and identify catalog entries that deserve human review.
+A multimodal machine learning project that uses movie posters and plot outlines to suggest genre tags and identify catalog entries that deserve human review. Experimental notebook with help of AI.
 
 **Status:** Versions 1 (Comedy vs. not Comedy) and 2 (23-genre multilabel) are trained and evaluated. The comparison covers two encoder families (ViT + DistilBERT, SigLIP 2) and three fusion heads (concat MLP, gated multimodal unit, token-level fusion transformer), plus LoRA fine-tuning. See [Results](#results), [reports/results.md](reports/results.md), and [PROGRESS.md](PROGRESS.md). The API and review interface are not built. No business-impact results are claimed.
 
