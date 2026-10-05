@@ -7,3 +7,5 @@ __pycache__/
 artifacts/
 # Never commit dataset assets (posters/plots); download via kagglehub
 data/
+# Local reference material and personal notes
+/private/
